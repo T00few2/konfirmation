@@ -2,12 +2,19 @@
 
 import styles from "./Menu.module.css";
 import { Utensils } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function Menu() {
     return (
         <section id="menu" className={styles.section}>
             <h2 className={styles.title}>Menuen</h2>
-            <div className={styles.card}>
+            <motion.div
+                className={styles.card}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.6 }}
+            >
                 <div style={{ display: "flex", justifyContent: "center", marginBottom: "2rem" }}>
                     <Utensils size={32} className="text-secondary" />
                 </div>
@@ -36,7 +43,7 @@ export default function Menu() {
                 <div style={{ marginTop: "4rem", fontSize: "0.875rem", fontStyle: "italic", color: "#64748b" }}>
                     * Oplys venligst om allergener ved tilmelding
                 </div>
-            </div>
+            </motion.div>
         </section>
     );
 }

@@ -2,17 +2,24 @@
 
 import styles from "./Invitation.module.css";
 import { Calendar, Clock, MapPin } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function Invitation() {
     return (
         <section id="invitation" className={styles.section}>
-            <div className={styles.card}>
+            <motion.div 
+                className={styles.card}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.6 }}
+            >
                 <div className={styles.decoration} /> {/* Top decoration bar */}
 
                 <h2 className={styles.heading}>Vi håber I vil være med til at fejre dagen</h2>
 
                 <p className={styles.text}>
-                    Det vil glæde os rigtig meget at se jer til Christians konfirmation.
+                    Det vil glæde os rigtig meget at se jer til Frederiks konfirmation.
                     Vi starter i kirken og fortsætter festen med god mad, drikke og hygge.
                 </p>
                 <p className={styles.text}>
@@ -20,7 +27,7 @@ export default function Invitation() {
                 </p>
                 <p className={styles.text}>
                     Kærlig hilsen<br />
-                    <strong>Navn & Navn</strong>
+                    <strong>Anette & Ch</strong>
                 </p>
 
                 <div className={styles.detailsGrid}>
@@ -48,7 +55,7 @@ export default function Invitation() {
                         <span className={styles.detailValue}>[Adresse]</span>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </section>
     );
 }

@@ -28,9 +28,8 @@ export default function Hero() {
                 </span>
 
                 <h1 className={styles.title}>
-                    Christian Andersen
+                    Frederik Gothard Mikkelsen-Kjær
                 </h1>
-                {/* Placeholder Name "Christian Andersen" (common DK name) or just "Navn Efternavn" */}
 
                 <p className={styles.description}>
                     Vi glæder os til at byde jer velkommen til en uforglemmelig dag fyldt med fejring, god mad og hygge.
