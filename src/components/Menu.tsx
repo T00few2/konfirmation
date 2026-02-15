@@ -22,27 +22,31 @@ export default function Menu() {
                 <div className={styles.course}>
                     <h3 className={styles.courseTitle}>Forret</h3>
                     <div className={styles.divider} />
-                    <p className={styles.dish}>Tarteletter med høns i asparges</p>
-                    <p className={styles.description}>Hjemmelavede tarteletter med masser af fyld og persille.</p>
+                    <p className={styles.dish}>Hvide asparges, hollandaise & håndpillede rejer</p>
+                    <p className={styles.description}>Klassisk forret med friske asparges, hollandaise og rejer.</p>
                 </div>
 
                 <div className={styles.course}>
                     <h3 className={styles.courseTitle}>Hovedret</h3>
                     <div className={styles.divider} />
-                    <p className={styles.dish}>Helstegt Oksefilet</p>
-                    <p className={styles.description}>Serveres med flødekartofler, årstidens grønt og rødvinssauce.</p>
+                    <p className={styles.dish}>Grillet onglet med bearnaisesauce</p>
+                    <p className={styles.description}>Serveres med<br />
+                        Forårskål med syrnet fløde & persille<br />
+                        Salat fra Farm House med vinaigrette<br />
+                        Små nye kartofler <br />
+                        Pommes frites</p>
                 </div>
 
                 <div className={styles.course}>
                     <h3 className={styles.courseTitle}>Dessert</h3>
                     <div className={styles.divider} />
-                    <p className={styles.dish}>Hjemmelavet Islagkage</p>
-                    <p className={styles.description}>Med chokoladestykker og friske bær.</p>
+                    <p className={styles.dish}>Rabarberpavlova</p>
+                    <p className={styles.description}>Sprød marengs med rabarberkompot og creme.</p>
                 </div>
 
-                <div style={{ marginTop: "4rem", fontSize: "0.875rem", fontStyle: "italic", color: "#64748b" }}>
-                    * Oplys venligst om allergener ved tilmelding
-                </div>
+                <p className={styles.note}>
+                    * Menuen er foreløbig
+                </p>
             </motion.div>
         </section>
     );

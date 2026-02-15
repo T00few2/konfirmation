@@ -65,3 +65,11 @@
     color: hsl(var(--muted-foreground));
     line-height: 1.5;
 }
+
+.note {
+    margin-top: 3rem;
+    font-size: 0.875rem;
+    font-style: italic;
+    color: hsl(var(--foreground));
+    opacity: 0.5;
+}
