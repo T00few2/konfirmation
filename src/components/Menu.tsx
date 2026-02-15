@@ -23,16 +23,16 @@ export default function Menu() {
                     <h3 className={styles.courseTitle}>Forret</h3>
                     <div className={styles.divider} />
                     <p className={styles.dish}>Hvide asparges, hollandaise & håndpillede rejer</p>
-                    <p className={styles.description}>Klassisk forret med friske asparges, hollandaise og rejer.</p>
+                    <p className={styles.description}>Forret med friske asparges, hollandaise og rejer.</p>
                 </div>
 
                 <div className={styles.course}>
                     <h3 className={styles.courseTitle}>Hovedret</h3>
                     <div className={styles.divider} />
-                    <p className={styles.dish}>Grillet onglet med bearnaisesauce</p>
+                    <p className={styles.dish}>Grillet butchers steak med bearnaisesauce</p>
                     <p className={styles.description}>Serveres med<br />
                         Forårskål med syrnet fløde & persille<br />
-                        Salat fra Farm House med vinaigrette<br />
+                        Salat med vinaigrette<br />
                         Små nye kartofler <br />
                         Pommes frites</p>
                 </div>
@@ -42,6 +42,10 @@ export default function Menu() {
                     <div className={styles.divider} />
                     <p className={styles.dish}>Rabarberpavlova</p>
                     <p className={styles.description}>Sprød marengs med rabarberkompot og creme.</p>
+                </div>
+
+                <div className={styles.course}>
+                    <h3 className={styles.courseTitle}>Kaffe & the</h3>
                 </div>
             </motion.div>
         </section>
