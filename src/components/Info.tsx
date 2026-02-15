@@ -86,7 +86,7 @@ export default function Info() {
                         Parkering
                     </a>
                     <p className={styles.infoText}>
-                        Til de hurtige er der begrænsede parkeringsmuligheder ved Josty. Husk at sætte P-skiven.<br /><br />
+                        Til de hurtige er der begrænsede parkeringsmuligheder ved Josty. Husk at sætte p-skiven.<br /><br />
                         Der er også en større parkeringsplads meget tæt på:
                     </p>
                     <p className={styles.infoText}>

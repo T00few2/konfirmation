@@ -51,14 +51,14 @@ export default function Invitation() {
                 <h2 className={styles.heading}>Frederiks konfirmation</h2>
 
                 <p className={styles.text}>
-                    Det vil glæde os rigtig meget at se jer til Frederiks konfirmation den 25. april 2026 kl. 12:00.
+                    Det vil glæde os rigtig meget at se jer til Frederiks konfirmation den 25. april 2026 kl. 12:00
                 </p>
                 <p className={styles.text}>
                     Festen holdes på <br /> Josty <br /> Pile Allé 14A <br /> 2000 Frederiksberg
                 </p>
 
                 <p className={styles.text}>
-                    Vi håber på en fantastisk dag sammen med jer alle.
+                    Vi håber på en fantastisk dag sammen med jer alle
                 </p>
                 <p className={styles.text}>
                     Kærlig hilsen<br />
