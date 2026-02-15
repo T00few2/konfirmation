@@ -15,10 +15,10 @@
     max-width: 1000px;
     margin: 0 auto;
     width: 100%;
-    /* Metallic Silver/Chrome Gradient Border */
+    /* Metallic Gold Gradient Border */
     background-image:
         linear-gradient(hsl(var(--card)), hsl(var(--card))),
-        linear-gradient(45deg, #71706e, #e8e8e8, #9c9c9c, #ffffff, #8a8a8a);
+        linear-gradient(45deg, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
     background-origin: border-box;
     background-clip: padding-box, border-box;
     border: 2px solid transparent;
@@ -28,8 +28,8 @@
     box-shadow:
         0 20px 25px -5px rgba(0, 0, 0, 0.1),
         0 10px 10px -5px rgba(0, 0, 0, 0.04),
-        0 0 15px hsl(220 10% 80% / 0.1);
-    /* Subtle silver glow */
+        0 0 20px hsl(43 100% 50% / 0.15);
+    /* Subtle gold glow */
     text-align: center;
     position: relative;
     overflow: hidden;
