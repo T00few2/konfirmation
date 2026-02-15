@@ -1,0 +1,133 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    transition: all 0.3s ease;
+    background: transparent;
+    padding: 1.25rem 0;
+}
+
+.scrolled {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0.75rem 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: hsl(var(--foreground));
+    text-decoration: none;
+}
+
+.desktopMenu {
+    display: none;
+    gap: 2rem;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .desktopMenu {
+        display: flex;
+    }
+}
+
+.link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: hsl(var(--foreground));
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.2s, color 0.2s;
+}
+
+.link:hover {
+    opacity: 1;
+    color: hsl(var(--primary));
+}
+
+.cta {
+    padding: 0.625rem 1.25rem;
+    background-color: hsl(var(--primary));
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 9999px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.cta:hover {
+    background-color: hsl(var(--primary) / 0.9);
+}
+
+.mobileButton {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: hsl(var(--foreground));
+    padding: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .mobileButton {
+        display: none;
+    }
+}
+
+.mobileMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: hsl(var(--background));
+    border-bottom: 1px solid hsl(var(--border));
+    overflow: hidden;
+    padding: 0;
+}
+
+.mobileLinks {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+
+.mobileLink {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: hsl(var(--foreground));
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.mobileCta {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: hsl(var(--primary));
+    color: white;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}

@@ -1,0 +1,57 @@
+.section {
+    padding: 6rem 1.5rem;
+    background-color: hsl(var(--background));
+    /* Light background */
+    text-align: center;
+}
+
+.title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: hsl(var(--foreground));
+}
+
+.card {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+    background-color: #fff;
+    border-radius: var(--radius);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+    /* very soft shadow */
+    border: 1px solid #f1f5f9;
+}
+
+.course {
+    margin-bottom: 2.5rem;
+}
+
+.courseTitle {
+    font-family: serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: hsl(var(--primary));
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.divider {
+    width: 50px;
+    height: 2px;
+    background-color: #e2e8f0;
+    margin: 1rem auto 2rem;
+}
+
+.dish {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: hsl(var(--foreground));
+    margin-bottom: 0.25rem;
+}
+
+.description {
+    font-size: 0.95rem;
+    color: hsl(var(--muted-foreground));
+    line-height: 1.5;
+}
