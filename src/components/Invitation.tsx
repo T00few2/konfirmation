@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function Invitation() {
     return (
         <section id="invitation" className={styles.section}>
-            <motion.div 
+            <motion.div
                 className={styles.card}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -27,7 +27,7 @@ export default function Invitation() {
                 </p>
                 <p className={styles.text}>
                     Kærlig hilsen<br />
-                    <strong>Anette & Ch</strong>
+                    <strong>Anette & Chris</strong>
                 </p>
 
                 <div className={styles.detailsGrid}>
