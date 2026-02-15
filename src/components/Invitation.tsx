@@ -52,7 +52,7 @@ export default function Invitation() {
 
                 <p className={styles.text}>
                     Det vil glæde os rigtig meget at se jer til Frederiks konfirmation.
-                    Da der er begrænset plads i kirken, er denne forbeholdt den nærmeste familie.
+                    Da der er begrænset plads i kirken, er der desværre kun plads til den nærmeste familie.
                 </p>
                 <p className={styles.text}>
                     Vi glæder os derfor til at se jer direkte til festen på Josty den 25. april 2026 kl. 12:00.
