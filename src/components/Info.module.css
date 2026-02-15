@@ -68,14 +68,14 @@
 .iconWrapper {
     width: 3rem;
     height: 3rem;
-    background-color: #eff6ff;
-    /* Match Invitation icon bg */
+    background-color: hsl(var(--secondary) / 0.1);
+    /* Gold bg with opacity */
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #2563eb;
-    /* Match Invitation icon color */
+    color: hsl(var(--secondary));
+    /* Gold icon color */
     flex-shrink: 0;
 }
 
@@ -87,7 +87,8 @@
 }
 
 .link {
-    color: hsl(var(--primary));
+    color: hsl(var(--secondary));
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     font-weight: 600;
     text-decoration: none;
     display: inline-flex;

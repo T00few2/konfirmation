@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Konfirmationsindbydelse",
   description: "Invitation til konfirmationsfest",
+  openGraph: {
+    title: "Konfirmationsindbydelse",
+    description: "Invitation til konfirmationsfest",
+    images: ["/thumbnail.png"],
+  },
 };
 
 export default function RootLayout({

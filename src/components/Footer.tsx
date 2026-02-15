@@ -12,16 +12,12 @@ export default function Footer() {
                 Giv os venligst besked om I kan deltage, så vi kan planlægge mad mm.
             </p>
 
-            <a href="mailto:christian.kjar@gmail.com" className={styles.button}>
-                Send svar på mail
-            </a>
-
             <div className={styles.contactContainer}>
-                <a href="tel:+4560510321" className={styles.phoneLink}>
+                <a href="sms:+4560510321" className={styles.phoneLink}>
                     <Phone size={18} />
                     <span>60 51 03 21 (Anette)</span>
                 </a>
-                <a href="tel:+4524897906" className={styles.phoneLink}>
+                <a href="sms:+4524897906" className={styles.phoneLink}>
                     <Phone size={18} />
                     <span>24 89 79 06 (Chris)</span>
                 </a>

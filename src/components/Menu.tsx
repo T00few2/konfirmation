@@ -10,10 +10,10 @@ export default function Menu() {
             <h2 className={styles.title}>Menuen</h2>
             <motion.div
                 className={styles.card}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.6 }}
+                initial={{ opacity: 0, y: 50, scale: 0.95 }}
+                whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                viewport={{ once: false, margin: "-50px" }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
             >
                 <div style={{ display: "flex", justifyContent: "center", marginBottom: "2rem" }}>
                     <Utensils size={32} className="text-secondary" />

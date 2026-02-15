@@ -9,10 +9,10 @@ export default function Info() {
         <section id="info" className={styles.section}>
             <motion.h2
                 className={styles.title}
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5 }}
+                viewport={{ once: false }}
+                transition={{ duration: 0.7, ease: "easeOut" }}
             >
                 Praktisk Information
             </motion.h2>
@@ -21,10 +21,10 @@ export default function Info() {
                 {/* Location */}
                 <motion.div
                     className={styles.card}
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.2 }}
-                    transition={{ duration: 0.6, delay: 0.1 }}
+                    initial={{ opacity: 0, y: 50, scale: 0.95 }}
+                    whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                    viewport={{ once: false, amount: 0.2 }}
+                    transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
                 >
                     <div className={styles.infoTitle}>
                         <div className={styles.iconWrapper}>
@@ -63,10 +63,10 @@ export default function Info() {
                 {/* Parking & Gifts */}
                 <motion.div
                     className={styles.card}
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.2 }}
-                    transition={{ duration: 0.6, delay: 0.2 }}
+                    initial={{ opacity: 0, y: 50, scale: 0.95 }}
+                    whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                    viewport={{ once: false, amount: 0.2 }}
+                    transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                 >
                     <div className={styles.infoTitle}>
                         <div className={styles.iconWrapper}>
