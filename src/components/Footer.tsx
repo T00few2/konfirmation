@@ -13,7 +13,7 @@ export default function Footer() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
             >
-                <h2 className={styles.title}>Send gerne svar inden <br />25. marts 2026</h2>
+                <h2 className={styles.title}>Send os gerne et svar inden den<br />25. marts 2026</h2>
                 <p className={styles.text}>
                     Vi glæder os rigtig meget og håber at se jer, så vi kan fejre dagen sammen.
                 </p>

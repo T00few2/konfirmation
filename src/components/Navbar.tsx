@@ -17,14 +17,10 @@ export default function Navbar() {
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
-        // Use a small timeout to ensure it scrolls to top after any dynamic content settles
-        setTimeout(() => {
-            window.scrollTo(0, 0);
-        }, 10);
-
         const handleScroll = () => {
             setScrolled(window.scrollY > 20);
         };
+        handleScroll(); // Initial check
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
