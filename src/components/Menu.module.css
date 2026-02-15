@@ -13,14 +13,21 @@
 }
 
 .card {
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
+    /* Metallic Silver/Chrome Gradient Border */
+    background-image:
+        linear-gradient(hsl(var(--card)), hsl(var(--card))),
+        linear-gradient(45deg, #71706e, #e8e8e8, #9c9c9c, #ffffff, #8a8a8a);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border: 2px solid transparent;
+
     padding: 4rem 3rem;
-    background-color: hsl(var(--card));
     border-radius: var(--radius);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
-    /* very soft shadow */
-    border: 1px solid hsl(var(--border));
+    box-shadow:
+        0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 0 15px hsl(220 10% 80% / 0.1);
 }
 
 .course {

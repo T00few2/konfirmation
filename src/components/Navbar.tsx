@@ -3,11 +3,10 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Home, MapPin, Utensils, Gift } from "lucide-react";
+import { Menu, X, MapPin, Utensils, Gift } from "lucide-react";
 import styles from "./Navbar.module.css";
 
 const navItems = [
-    { name: "Hjem", href: "#hero", icon: Home },
     { name: "Invitation", href: "#invitation", icon: Gift },
     { name: "Praktisk", href: "#info", icon: MapPin },
     { name: "Menu", href: "#menu", icon: Utensils },
@@ -18,6 +17,11 @@ export default function Navbar() {
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
+        // Use a small timeout to ensure it scrolls to top after any dynamic content settles
+        setTimeout(() => {
+            window.scrollTo(0, 0);
+        }, 10);
+
         const handleScroll = () => {
             setScrolled(window.scrollY > 20);
         };
@@ -30,7 +34,7 @@ export default function Navbar() {
             <div className={styles.container}>
                 {/* Logo / Brand */}
                 <Link
-                    href="#hero"
+                    href="#invitation"
                     className={styles.logo}
                     onClick={() => setIsOpen(false)}
                 >
@@ -52,7 +56,7 @@ export default function Navbar() {
                         href="#rsvp"
                         className={styles.cta}
                     >
-                        S.U.
+                        Svar
                     </Link>
                 </div>
 
@@ -92,7 +96,7 @@ export default function Navbar() {
                                 className={styles.mobileCta}
                                 onClick={() => setIsOpen(false)}
                             >
-                                S.U.
+                                Svar
                             </Link>
                         </div>
                     </motion.div>

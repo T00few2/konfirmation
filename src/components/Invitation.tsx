@@ -48,14 +48,16 @@ export default function Invitation() {
                 viewport={{ once: false, amount: 0.3 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
             >
-                <div className={styles.decoration} /> {/* Top decoration bar */}
-
-                <h2 className={styles.heading}>Vi håber I vil være med til at fejre dagen</h2>
+                <h2 className={styles.heading}>Frederiks konfirmation</h2>
 
                 <p className={styles.text}>
                     Det vil glæde os rigtig meget at se jer til Frederiks konfirmation.
-                    Vi starter i kirken og fortsætter festen med god mad, drikke og hygge.
+                    Da der er begrænset plads i kirken, er denne forbeholdt den nærmeste familie.
                 </p>
+                <p className={styles.text}>
+                    Vi glæder os derfor til at se jer direkte til festen på Josty den 25. april 2026 kl. 12:00.
+                </p>
+
                 <p className={styles.text}>
                     Vi håber på en fantastisk dag sammen med jer alle.
                 </p>
@@ -98,7 +100,7 @@ export default function Invitation() {
                             <MapPin size={24} />
                         </div>
                         <span className={styles.detailLabel}>Sted</span>
-                        <span className={styles.detailValue}>Josty, Pile Allé 14A, 2000 Frederiksberg</span>
+                        <span className={styles.detailValue}>Josty<br />Pile Allé 14A<br />2000 Frederiksberg</span>
                     </a>
                 </div>
             </motion.div>

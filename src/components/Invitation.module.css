@@ -1,17 +1,35 @@
 .section {
-    padding: 6rem 1.5rem;
+    padding: 11rem 1.5rem 6rem;
     background-color: hsl(var(--background));
     display: flex;
     justify-content: center;
 }
 
+@media (min-width: 768px) {
+    .section {
+        padding: 13rem 1.5rem 8rem;
+    }
+}
+
 .card {
-    max-width: 800px;
+    max-width: 1000px;
+    margin: 0 auto;
     width: 100%;
-    background: hsl(var(--card));
+    /* Metallic Silver/Chrome Gradient Border */
+    background-image:
+        linear-gradient(hsl(var(--card)), hsl(var(--card))),
+        linear-gradient(45deg, #71706e, #e8e8e8, #9c9c9c, #ffffff, #8a8a8a);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border: 2px solid transparent;
+
     padding: 3rem 2rem;
     border-radius: var(--radius);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow:
+        0 20px 25px -5px rgba(0, 0, 0, 0.1),
+        0 10px 10px -5px rgba(0, 0, 0, 0.04),
+        0 0 15px hsl(220 10% 80% / 0.1);
+    /* Subtle silver glow */
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -21,15 +39,6 @@
     .card {
         padding: 5rem 4rem;
     }
-}
-
-.decoration {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 8px;
-    background: linear-gradient(to right, hsl(var(--secondary) / 0.2), hsl(var(--secondary)), hsl(var(--secondary) / 0.2));
 }
 
 .heading {
