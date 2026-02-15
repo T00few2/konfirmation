@@ -4,18 +4,23 @@
     left: 0;
     right: 0;
     z-index: 50;
-    transition: all 0.3s ease;
-    background: transparent;
-    padding: 1.25rem 0;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    background: hsl(222 47% 9% / 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid hsl(var(--border) / 0.4);
+    padding: 1rem 0;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
 }
 
 .scrolled {
-    background: hsl(var(--background) / 0.8);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid hsl(var(--border) / 0.5);
-    padding: 0.75rem 0;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    background: hsl(222 47% 7% / 0.98);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid hsl(var(--border) / 0.8);
+    padding: 0.6rem 0;
+    box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.6),
+        0 10px 15px -10px rgba(0, 0, 0, 0.5);
 }
 
 .container {
@@ -23,13 +28,14 @@
     margin: 0 auto;
     padding: 0 1.5rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     gap: 1rem;
 }
 
 .logo {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: -0.02em;
     color: hsl(var(--foreground));
@@ -37,12 +43,12 @@
     transition: all 0.3s ease;
     font-family: serif;
     line-height: 1.1;
-    text-align: center;
+    text-align: left;
 }
 
 @media (min-width: 768px) {
     .logo {
-        font-size: 3.5rem;
+        font-size: 1.75rem;
     }
 }
 
@@ -69,22 +75,25 @@
 
 .link:hover {
     opacity: 1;
-    color: hsl(var(--primary));
+    color: hsl(var(--secondary));
 }
 
 .cta {
-    padding: 0.625rem 1.25rem;
-    background-color: hsl(var(--primary));
-    color: white;
+    padding: 0.625rem 1.5rem;
+    background-color: hsl(var(--accent));
+    color: hsl(var(--accent-foreground));
     font-size: 0.875rem;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 9999px;
     text-decoration: none;
-    transition: background-color 0.2s;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .cta:hover {
-    background-color: hsl(var(--primary) / 0.9);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    background-color: hsl(var(--accent) / 0.9);
 }
 
 .mobileButton {
@@ -107,8 +116,10 @@
     top: 100%;
     left: 0;
     right: 0;
-    background: hsl(var(--background));
-    border-bottom: 1px solid hsl(var(--border));
+    background: hsl(222 47% 8% / 0.98);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid hsl(var(--border) / 0.8);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     padding: 0;
 }
