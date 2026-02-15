@@ -23,7 +23,7 @@ export default function Menu() {
                     <h3 className={styles.courseTitle}>Forret</h3>
                     <div className={styles.divider} />
                     <p className={styles.dish}>Hvide asparges, hollandaise & håndpillede rejer</p>
-                    <p className={styles.description}>Forret med friske asparges, hollandaise og rejer.</p>
+                    <p className={styles.description}>Forret med friske asparges, hollandaise og rejer. Serveres med brød og smør</p>
                 </div>
 
                 <div className={styles.course}>
