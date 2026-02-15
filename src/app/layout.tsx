@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Konfirmationsindbydelse",
     description: "Invitation til konfirmationsfest",
-    images: ["/thumbnail.png"],
+    images: ["/invitation.png"],
   },
 };
 
