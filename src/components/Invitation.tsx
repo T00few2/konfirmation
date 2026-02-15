@@ -51,11 +51,10 @@ export default function Invitation() {
                 <h2 className={styles.heading}>Frederiks konfirmation</h2>
 
                 <p className={styles.text}>
-                    Det vil glæde os rigtig meget at se jer til Frederiks konfirmation.
-                    Da der er begrænset plads i kirken, er der desværre kun plads til den nærmeste familie.
+                    Det vil glæde os rigtig meget at se jer til Frederiks konfirmation den 25. april 2026 kl. 12:00.
                 </p>
                 <p className={styles.text}>
-                    Vi glæder os derfor til at se jer direkte til festen på Josty den 25. april 2026 kl. 12:00.
+                    Festen holdes på <br /> Josty <br /> Pile Allé 14A <br /> 2000 Frederiksberg
                 </p>
 
                 <p className={styles.text}>
@@ -63,7 +62,7 @@ export default function Invitation() {
                 </p>
                 <p className={styles.text}>
                     Kærlig hilsen<br />
-                    <strong>Anette & Chris</strong>
+                    <strong>Frederik<br />Anette & Chris</strong>
                 </p>
 
                 <div className={styles.detailsGrid}>
@@ -104,6 +103,6 @@ export default function Invitation() {
                     </a>
                 </div>
             </motion.div>
-        </section>
+        </section >
     );
 }

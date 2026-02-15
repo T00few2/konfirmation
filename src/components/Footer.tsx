@@ -15,7 +15,7 @@ export default function Footer() {
             >
                 <h2 className={styles.title}>Send gerne svar inden <br />25. marts 2026</h2>
                 <p className={styles.text}>
-                    Vi glæder os utrolig meget og håber at se jer, så vi kan fejre dagen sammen.
+                    Vi glæder os rigtig meget og håber at se jer, så vi kan fejre dagen sammen.
                 </p>
 
                 <div className={styles.contactContainer}>

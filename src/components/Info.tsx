@@ -39,7 +39,7 @@ export default function Info() {
                     </a>
 
                     <p className={styles.infoText}>
-                        Festen finder sted på <strong>Josty</strong> kl. 12:00.
+                        Festen finder sted på <br /><strong>Josty kl. 12:00</strong>
                     </p>
                     <p className={styles.infoText}>
                         <strong>
@@ -127,10 +127,10 @@ export default function Info() {
                         Gaveønsker
                     </div>
                     <p className={styles.infoText}>
-                        Hvis I vil glæde konfirmanden med en gave, kan I finde ønskesedlen her:
+                        Hvis I vil glæde Frederik med en gave, kan I finde ønskesedlen her:
                     </p>
                     <a className={styles.link} href="https://onskeskyen.dk" target="_blank">
-                        Se Ønskeskyen &rarr;
+                        Se ønskesedlen her &rarr;
                     </a>
                 </motion.div>
 

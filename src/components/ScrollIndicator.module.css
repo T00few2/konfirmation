@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+    position: relative;
+    z-index: 10;
+}
+
+.indicator {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: hsl(var(--foreground));
+    opacity: 0.6;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+.indicator:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.text {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
