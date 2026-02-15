@@ -2,7 +2,7 @@
 
 import styles from "./Footer.module.css";
 import { motion } from "framer-motion";
-import { Smartphone } from "lucide-react";
+import { Phone } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -20,11 +20,11 @@ export default function Footer() {
 
                 <div className={styles.contactContainer}>
                     <a href="sms:+4560510321" className={styles.phoneLink}>
-                        <Smartphone size={18} />
+                        <Phone size={18} />
                         <span>60 51 03 21 (Anette)</span>
                     </a>
                     <a href="sms:+4524897906" className={styles.phoneLink}>
-                        <Smartphone size={18} />
+                        <Phone size={18} />
                         <span>24 89 79 06 (Chris)</span>
                     </a>
                 </div>

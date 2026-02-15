@@ -1,7 +1,6 @@
 "use client";
 
 import styles from "./Menu.module.css";
-import { Utensils } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Menu() {
@@ -15,9 +14,7 @@ export default function Menu() {
                 viewport={{ once: false, margin: "-50px" }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
             >
-                <div style={{ display: "flex", justifyContent: "center", marginBottom: "2rem" }}>
-                    <Utensils size={32} className="text-secondary" />
-                </div>
+
 
                 <div className={styles.course}>
                     <h3 className={styles.courseTitle}>Forret</h3>
