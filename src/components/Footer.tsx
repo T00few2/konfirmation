@@ -16,15 +16,15 @@ export default function Footer() {
                 Send svar på mail
             </a>
 
-            <div style={{ marginTop: "4rem", display: "flex", justifyContent: "center", gap: "2rem", color: "#94a3b8" }}>
-                <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+            <div className={styles.contactContainer}>
+                <a href="tel:+4560510321" className={styles.phoneLink}>
                     <Phone size={18} />
                     <span>60 51 03 21 (Anette)</span>
-                </div>
-                <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                </a>
+                <a href="tel:+4524897906" className={styles.phoneLink}>
                     <Phone size={18} />
                     <span>24 89 79 06 (Chris)</span>
-                </div>
+                </a>
             </div>
 
             <div className={styles.copyright}>

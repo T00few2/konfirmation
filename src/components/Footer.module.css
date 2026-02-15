@@ -43,3 +43,24 @@
     font-size: 0.875rem;
     color: #475569;
 }
+
+.contactContainer {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.phoneLink {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #94a3b8;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.phoneLink:hover {
+    color: #f1f5f9;
+}
