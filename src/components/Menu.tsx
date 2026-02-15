@@ -30,11 +30,7 @@ export default function Menu() {
                     <h3 className={styles.courseTitle}>Hovedret</h3>
                     <div className={styles.divider} />
                     <p className={styles.dish}>Grillet steak med bearnaisesauce</p>
-                    <p className={styles.description}>Serveres med<br />
-                        Forårskål med syrnet fløde & persille<br />
-                        Salat med vinaigrette<br />
-                        Små nye kartofler <br />
-                        Pommes frites</p>
+                    <p className={styles.description}>Serveres med forårskål med syrnet fløde & persille, salat med vinaigrette, små nye kartofler og pommes frites</p>
                 </div>
 
                 <div className={styles.course}>
