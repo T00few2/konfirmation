@@ -37,7 +37,13 @@
 
   --radius: 0.75rem;
   --container-padding: 1.5rem;
-  --nav-height: 150px;
+  --nav-height: 160px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --nav-height: 220px;
+  }
 }
 
 * {

@@ -43,10 +43,6 @@ export default function Menu() {
                     <p className={styles.dish}>Rabarberpavlova</p>
                     <p className={styles.description}>Sprød marengs med rabarberkompot og creme.</p>
                 </div>
-
-                <p className={styles.note}>
-                    * Menuen er foreløbig
-                </p>
             </motion.div>
         </section>
     );
