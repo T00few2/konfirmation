@@ -129,7 +129,7 @@ export default function Info() {
                     <p className={styles.infoText}>
                         Hvis I vil glæde Frederik med en gave, kan I finde ønskesedlen her:
                     </p>
-                    <a className={styles.link} href="https://onskeskyen.dk" target="_blank">
+                    <a className={styles.link} href="https://onskeskyen.dk/s/enm1r0" target="_blank">
                         Se ønskesedlen her &rarr;
                     </a>
                 </motion.div>
