@@ -14,13 +14,13 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
-  title: "Konfirmationsindbydelse",
+  title: "Konfirmation",
   description: "Invitation til konfirmationsfest",
   icons: {
     icon: "/icon.png",
   },
   openGraph: {
-    title: "Konfirmationsindbydelse",
+    title: "Konfirmation",
     description: "Invitation til konfirmationsfest",
     images: ["/invitation.png"],
   },
