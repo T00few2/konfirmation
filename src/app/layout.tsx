@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   title: "Konfirmationsindbydelse",
   description: "Invitation til konfirmationsfest",
+  icons: {
+    icon: "/icon.png",
+  },
   openGraph: {
     title: "Konfirmationsindbydelse",
     description: "Invitation til konfirmationsfest",
