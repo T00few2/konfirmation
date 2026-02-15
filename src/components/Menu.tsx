@@ -29,7 +29,7 @@ export default function Menu() {
                 <div className={styles.course}>
                     <h3 className={styles.courseTitle}>Hovedret</h3>
                     <div className={styles.divider} />
-                    <p className={styles.dish}>Grillet butchers steak med bearnaisesauce</p>
+                    <p className={styles.dish}>Grillet steak med bearnaisesauce</p>
                     <p className={styles.description}>Serveres med<br />
                         Forårskål med syrnet fløde & persille<br />
                         Salat med vinaigrette<br />
