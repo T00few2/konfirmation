@@ -34,7 +34,7 @@ export default function Navbar() {
                     className={styles.logo}
                     onClick={() => setIsOpen(false)}
                 >
-                    Konfirmation 2026
+                    Frederiks Konfirmation 2026
                 </Link>
 
                 {/* Desktop Menu */}

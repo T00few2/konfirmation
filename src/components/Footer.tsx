@@ -12,18 +12,18 @@ export default function Footer() {
                 Giv os venligst besked om I kan deltage, så vi kan planlægge mad mm.
             </p>
 
-            <a href="mailto:email@example.com" className={styles.button}>
+            <a href="mailto:christian.kjar@gmail.com" className={styles.button}>
                 Send svar på mail
             </a>
 
             <div style={{ marginTop: "4rem", display: "flex", justifyContent: "center", gap: "2rem", color: "#94a3b8" }}>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
                     <Phone size={18} />
-                    <span>12 34 56 78 (Mor)</span>
+                    <span>60 51 03 21 (Anette)</span>
                 </div>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
                     <Phone size={18} />
-                    <span>87 65 43 21 (Far)</span>
+                    <span>24 89 79 06 (Chris)</span>
                 </div>
             </div>
 

@@ -40,7 +40,7 @@ export default function Hero() {
                         href="#rsvp"
                         className={styles.primaryButton}
                     >
-                        Tilmeld dig her
+                        Svar her
                     </Link>
                     <Link
                         href="#info"

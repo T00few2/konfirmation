@@ -11,7 +11,7 @@ export default function Invitation() {
                 className={styles.card}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
+                viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.6 }}
             >
                 <div className={styles.decoration} /> {/* Top decoration bar */}
@@ -36,7 +36,7 @@ export default function Invitation() {
                             <Calendar size={24} />
                         </div>
                         <span className={styles.detailLabel}>Dato</span>
-                        <span className={styles.detailValue}>20. Maj 2026</span>
+                        <span className={styles.detailValue}>25. april 2025</span>
                     </div>
 
                     <div className={styles.detailItem}>
@@ -44,7 +44,7 @@ export default function Invitation() {
                             <Clock size={24} />
                         </div>
                         <span className={styles.detailLabel}>Tidspunkt</span>
-                        <span className={styles.detailValue}>10:00 - ?</span>
+                        <span className={styles.detailValue}>12:00 - 17:00</span>
                     </div>
 
                     <div className={styles.detailItem}>
@@ -52,7 +52,7 @@ export default function Invitation() {
                             <MapPin size={24} />
                         </div>
                         <span className={styles.detailLabel}>Sted</span>
-                        <span className={styles.detailValue}>[Adresse]</span>
+                        <span className={styles.detailValue}>Josty, Pile Allé 14A, 2000 Frederiksberg</span>
                     </div>
                 </div>
             </motion.div>
