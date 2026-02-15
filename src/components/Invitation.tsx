@@ -36,7 +36,7 @@ export default function Invitation() {
                             <Calendar size={24} />
                         </div>
                         <span className={styles.detailLabel}>Dato</span>
-                        <span className={styles.detailValue}>25. april 2025</span>
+                        <span className={styles.detailValue}>25. april 2026</span>
                     </div>
 
                     <div className={styles.detailItem}>
