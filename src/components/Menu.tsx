@@ -26,19 +26,20 @@ export default function Menu() {
                 <div className={styles.course}>
                     <h3 className={styles.courseTitle}>Hovedret</h3>
                     <div className={styles.divider} />
-                    <p className={styles.dish}>Grillet steak med bearnaisesauce</p>
-                    <p className={styles.description}>Serveres med forårskål med syrnet fløde & persille, salat med vinaigrette, små nye kartofler og pommes frites</p>
+                    <p className={styles.dish}>Grillet onglet med pebersauce</p>
+                    <p className={styles.description}>Serveres med forårskål med syrnet fløde & persille, salat med vinaigrette, små nye kartofler, pommes frites og bernaisesauce</p>
                 </div>
 
                 <div className={styles.course}>
                     <h3 className={styles.courseTitle}>Dessert</h3>
                     <div className={styles.divider} />
                     <p className={styles.dish}>Rabarberpavlova</p>
-                    <p className={styles.description}>Sprød marengs med rabarberkompot og creme.</p>
+                    <p className={styles.description}>Sprød marengs med rabarberkompot og creme</p>
                 </div>
 
                 <div className={styles.course}>
                     <h3 className={styles.courseTitle}>Kaffe & the</h3>
+                    <p className={styles.description}>Serveres med flødeboller</p>
                 </div>
             </motion.div>
         </section>
