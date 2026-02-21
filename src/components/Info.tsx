@@ -81,7 +81,7 @@ export default function Info() {
                     </div>
                     <p className={styles.infoText}>
                         Vejene omkring huset er en del af Frederiksbergs parkeringszone og kræver betaling imellem 7-17 på lørdage.
-                        Betalingen kan foretages med EasyPark app, der findes i <a href="https://apps.apple.com/dk/app/easypark-parkering-lavet-nemt/id449007529" target="_blank" className={styles.textLink}>App Store</a> og <a href="https://play.google.com/store/apps/details?id=net.easypark.android" target="_blank" className={styles.textLink}>Google Play</a>.
+                        Betalingen kan foretages med EasyPark app, der findes i <a href="https://apps.apple.com/dk/app/easypark-parking-made-easy/id449594317" target="_blank" className={styles.textLink}>App Store</a> og <a href="https://play.google.com/store/apps/details?id=net.easypark.android" target="_blank" className={styles.textLink}>Google Play</a>.
                     </p>
                 </motion.div>
 

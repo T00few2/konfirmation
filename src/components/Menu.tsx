@@ -24,7 +24,8 @@ export default function Menu() {
                         Oste med garniturer<br />
                         Græsk yoghurt med honning og ristet müsli<br />
                         Parmaskinke<br />
-                        Sprødristet bacon og brunchpølser med lunt røræg<br /></p>
+                        Sprødristet bacon og brunchpølser med lunt røræg<br />
+                    </p>
                 </div>
 
                 <div className={styles.course}>
