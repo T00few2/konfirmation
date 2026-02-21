@@ -108,3 +108,14 @@
     padding-top: 2rem;
     border-top: 1px solid hsl(var(--border));
 }
+
+.textLink {
+    color: hsl(var(--secondary));
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.textLink:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}

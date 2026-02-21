@@ -17,29 +17,25 @@ export default function Menu() {
 
 
                 <div className={styles.course}>
-                    <h3 className={styles.courseTitle}>Forret</h3>
+                    <h3 className={styles.courseTitle}>Brunch buffet</h3>
                     <div className={styles.divider} />
-                    <p className={styles.dish}>Hvide asparges, hollandaise & håndpillede rejer</p>
-                    <p className={styles.description}>Serveres med brød og smør</p>
+                    <p className={styles.description}>Friskskårne pølser<br />
+                        Friskskåret frugt<br />
+                        Oste med garniturer<br />
+                        Græsk yoghurt med honning og ristet müsli<br />
+                        Parmaskinke<br />
+                        Sprødristet bacon og brunchpølser med lunt røræg<br /></p>
                 </div>
 
                 <div className={styles.course}>
-                    <h3 className={styles.courseTitle}>Hovedret</h3>
+                    <h3 className={styles.courseTitle}>Kage</h3>
                     <div className={styles.divider} />
-                    <p className={styles.dish}>Grillet onglet med pebersauce</p>
-                    <p className={styles.description}>Serveres med forårskål med syrnet fløde & persille, salat med vinaigrette, små nye kartofler, pommes frites og bernaisesauce</p>
-                </div>
-
-                <div className={styles.course}>
-                    <h3 className={styles.courseTitle}>Dessert</h3>
-                    <div className={styles.divider} />
-                    <p className={styles.dish}>Rabarberpavlova</p>
-                    <p className={styles.description}>Sprød marengs med rabarberkompot og creme</p>
+                    <p className={styles.description}>Christianshavnertærte</p>
                 </div>
 
                 <div className={styles.course}>
                     <h3 className={styles.courseTitle}>Kaffe & the</h3>
-                    <p className={styles.description}>Serveres med flødeboller</p>
+                    <div className={styles.divider} />
                 </div>
             </motion.div>
         </section>

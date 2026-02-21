@@ -54,7 +54,7 @@ export default function Invitation() {
                     Det vil glæde os rigtig meget at se jer til Frederiks konfirmation den 25. april 2026 kl. 12:00
                 </p>
                 <p className={styles.text}>
-                    Festen holdes på <br /> Josty <br /> Pile Allé 14A <br /> 2000 Frederiksberg
+                    Festen holdes<br />C.F. Richs Vej 7<br /> 2000 Frederiksberg
                 </p>
 
                 <p className={styles.text}>
@@ -91,7 +91,7 @@ export default function Invitation() {
                     </a>
 
                     <a
-                        href="https://www.google.com/maps/search/?api=1&query=Josty+Pile+Allé+14A+2000+Frederiksberg"
+                        href="https://www.google.com/maps/search/?api=1&query=CF+Richs+Vej+7+2000+Frederiksberg"
                         target="_blank"
                         className={styles.detailItemLink}
                     >
@@ -99,7 +99,7 @@ export default function Invitation() {
                             <MapPin size={24} />
                         </div>
                         <span className={styles.detailLabel}>Sted</span>
-                        <span className={styles.detailValue}>Josty<br />Pile Allé 14A<br />2000 Frederiksberg</span>
+                        <span className={styles.detailValue}>C.F. Richs Vej 7<br />2000 Frederiksberg</span>
                     </a>
                 </div>
             </motion.div>

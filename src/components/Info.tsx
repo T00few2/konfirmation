@@ -27,7 +27,7 @@ export default function Info() {
                     transition={{ duration: 0.8, ease: "easeOut", delay: 0.1 }}
                 >
                     <a
-                        href="https://www.google.com/maps/search/?api=1&query=Josty+Pile+Allé+14A+2000+Frederiksberg"
+                        href="https://www.google.com/maps/search/?api=1&query=CF+Richs+Vej+7+2000+Frederiksberg"
                         target="_blank"
                         className={styles.infoTitle}
                         style={{ textDecoration: 'none', color: 'inherit' }}
@@ -35,26 +35,25 @@ export default function Info() {
                         <div className={styles.iconWrapper}>
                             <MapPin size={24} />
                         </div>
-                        Josty
+                        Lokation
                     </a>
 
                     <p className={styles.infoText}>
-                        Festen finder sted på <br /><strong>Josty kl. 12:00</strong>
+                        Festen finder sted på <br /><strong>C.F. Richs Vej 7 kl. 12:00</strong>
                     </p>
                     <p className={styles.infoText}>
                         <strong>
-                            Josty<br />
-                            Pile Allé 14A<br />
+                            C.F. Richs Vej 7<br />
                             2000 Frederiksberg</strong>
                     </p>
 
-                    <a className={styles.link} style={{ marginBottom: '1.5rem' }} href="https://www.google.com/maps/search/?api=1&query=Josty+Pile+Allé+14A+2000+Frederiksberg" target="_blank">
+                    <a className={styles.link} style={{ marginBottom: '1.5rem' }} href="https://www.google.com/maps/search/?api=1&query=CF+Richs+Vej+7+2000+Frederiksberg" target="_blank">
                         Rutevejledning
                     </a>
 
                     <div className={styles.map}>
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4634.5270563283475!2d12.52741971231963!3d55.673614097975474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525397a1ec9761%3A0xc6077864102bd665!2sJosty!5e1!3m2!1sda!2sdk!4v1771141159872!5m2!1sda!2sdk"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.2312!2d12.5112!3d55.6841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652530b10c8c0f5%3A0xc3f58a8a4f6cf1a6!2sC.F.+Richs+Vej+7%2C+2000+Frederiksberg!5e0!3m2!1sda!2sdk!4v1711141159872!5m2!1sda!2sdk"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
@@ -66,7 +65,7 @@ export default function Info() {
                     </div>
                 </motion.div>
 
-                {/* Parking & Gifts */}
+                {/* Parking */}
                 <motion.div
                     className={styles.card}
                     initial={{ opacity: 0, y: 50, scale: 0.95 }}
@@ -74,41 +73,16 @@ export default function Info() {
                     viewport={{ once: false, amount: 0.2 }}
                     transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                 >
-                    <a
-                        href="https://www.google.com/maps/search/?api=1&query=Parkering+Pile+Allé+14+2000+Frederiksberg"
-                        target="_blank"
-                        className={styles.infoTitle}
-                        style={{ textDecoration: 'none', color: 'inherit' }}
-                    >
+                    <div className={styles.infoTitle}>
                         <div className={styles.iconWrapper}>
                             <Car size={24} />
                         </div>
                         Parkering
-                    </a>
-                    <p className={styles.infoText}>
-                        Til de hurtige er der begrænsede parkeringsmuligheder ved Josty. Husk at sætte p-skiven.<br /><br />
-                        Der er også en større parkeringsplads meget tæt på:
-                    </p>
-                    <p className={styles.infoText}>
-                        <strong>Parkering Pile Allé 14<br />
-                            2000 Frederiksberg</strong>
-                    </p>
-                    <a className={styles.link} style={{ marginBottom: '1rem' }} href="https://www.google.com/maps/search/?api=1&query=Parkering+Pile+Allé+14+2000+Frederiksberg" target="_blank" rel="noopener noreferrer">
-                        Rutevejledning
-                    </a>
-                    <div className={styles.map} style={{ marginTop: '1rem', marginBottom: '1rem' }}>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d289.6718235978964!2d12.530207!3d55.671739!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253970808093b%3A0xd47320d991c73957!2sParkering%20Pile%20All%C3%A9%2014%2C%20Frederiksberg%20%7C%20APCOA%20PARKING!5e1!3m2!1sda!2sus!4v1771147155005!5m2!1sda!2sus"
-                            width="100%"
-                            height="250"
-                            style={{ border: 0 }}
-                            allowFullScreen={true}
-                            loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"
-                            title="Kort over parkering"
-                        />
                     </div>
-
+                    <p className={styles.infoText}>
+                        Vejene omkring huset er en del af Frederiksbergs parkeringszone og kræver betaling imellem 7-17 på lørdage.
+                        Betalingen kan foretages med EasyPark app, der findes i <a href="https://apps.apple.com/dk/app/easypark-parkering-lavet-nemt/id449007529" target="_blank" className={styles.textLink}>App Store</a> og <a href="https://play.google.com/store/apps/details?id=net.easypark.android" target="_blank" className={styles.textLink}>Google Play</a>.
+                    </p>
                 </motion.div>
 
                 {/* Gifts - Full Width */}
