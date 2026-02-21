@@ -54,7 +54,7 @@ export default function Invitation() {
                     Det vil glæde os rigtig meget at se jer til Frederiks konfirmation den 25. april 2026 kl. 12:00
                 </p>
                 <p className={styles.text}>
-                    Festen holdes<br />C.F. Richs Vej 7<br /> 2000 Frederiksberg
+                    Festen holdes på<br />C.F. Richs Vej 7<br /> 2000 Frederiksberg
                 </p>
 
                 <p className={styles.text}>

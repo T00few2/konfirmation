@@ -39,7 +39,7 @@ export default function Info() {
                     </a>
 
                     <p className={styles.infoText}>
-                        Festen finder sted på <br /><strong>C.F. Richs Vej 7 kl. 12:00</strong>
+                        Festen finder sted kl. 12:00 på <br />
                     </p>
                     <p className={styles.infoText}>
                         <strong>
