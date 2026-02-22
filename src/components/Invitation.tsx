@@ -87,7 +87,7 @@ export default function Invitation() {
                             <Clock size={24} />
                         </div>
                         <span className={styles.detailLabel}>Tidspunkt</span>
-                        <span className={styles.detailValue}>12:00 - 17:00</span>
+                        <span className={styles.detailValue}>12:00</span>
                     </a>
 
                     <a

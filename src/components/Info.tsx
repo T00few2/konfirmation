@@ -80,7 +80,7 @@ export default function Info() {
                         Parkering
                     </div>
                     <p className={styles.infoText}>
-                        Vejene omkring huset er en del af Frederiksbergs parkeringszone og kræver betaling imellem 7-17 på lørdage.
+                        Vejene omkring huset er en del af Frederiksbergs parkeringszone og kræver betaling imellem 7-17 på lørdage. <br /><br />
                         Betalingen kan foretages med EasyPark app, der findes i <a href="https://apps.apple.com/dk/app/easypark-parking-made-easy/id449594317" target="_blank" className={styles.textLink}>App Store</a> og <a href="https://play.google.com/store/apps/details?id=net.easypark.android" target="_blank" className={styles.textLink}>Google Play</a>.
                     </p>
                 </motion.div>
